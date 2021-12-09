@@ -1,0 +1,25 @@
+{
+  "name": "ark",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "nodemon --ignore cache ./bin/www",
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "atlas": "^1.0.0-alpha.0",
+    "axios": "^0.24.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "moment": "^2.29.1",
+    "mongodb": "^4.2.1",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.4",
+    "pug": "2.0.0-beta11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
